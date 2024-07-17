@@ -38,7 +38,7 @@ try:
 
     page_source = driver.page_source
     soup = BeautifulSoup(page_source, 'html.parser')
-    reras = soup.find_all('a', title='View Application', limit=5)
+    reras = soup.find_all('a', title='View Application', limit=6)
     
     
     for i, rera in enumerate(reras):
